@@ -1,0 +1,19 @@
+#hero {
+    background: #2e2f42;
+}
+
+#hero>h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+#hero>button {
+    background: #4d5ae5;
+    color: #fff;
+}
+    
