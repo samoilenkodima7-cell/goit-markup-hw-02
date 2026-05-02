@@ -1,9 +1,9 @@
 
-header>a {
+.header-title {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 133%;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#2e2f42;
@@ -12,7 +12,7 @@ header>a {
 .header-nav {
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -20,7 +20,13 @@ header>a {
 .header-address {
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #404bbf;
 }

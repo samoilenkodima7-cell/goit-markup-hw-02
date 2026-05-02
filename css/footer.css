@@ -1,12 +1,12 @@
-#footer {
+.footer {
     background: #2e2f42;
 }
 
-footer>a {
+.footer-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 133%;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
@@ -15,7 +15,7 @@ footer>a {
 .footer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
