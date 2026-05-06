@@ -1,5 +1,6 @@
 .hero {
     background: #2e2f42;
+    height: 600px;
 }
 
 .hero-title {
@@ -10,6 +11,10 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-top: 188px;
+    padding-left: 331x;
+    padding-bottom: 48px;
+    padding-right: 331px;
 }
 
 .hero-button {
