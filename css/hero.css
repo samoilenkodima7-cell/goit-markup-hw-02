@@ -3,8 +3,14 @@
     height: 600px;
 }
 
+.conteiner-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
 .hero-title {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -12,8 +18,7 @@
     text-align: center;
     color: #fff;
     padding-top: 188px;
-    padding-left: 331x;
-    padding-bottom: 48px;
+    padding-left: 331px;
     padding-right: 331px;
 }
 
@@ -25,6 +30,10 @@
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #fff;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin-top: 48px;
+    margin-bottom: 188px;
 }
 
 .hero-button:hover,

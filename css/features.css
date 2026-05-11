@@ -1,3 +1,13 @@
+.conteiner-features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-list {
+    display: flex;
+    column-gap: 24px;
+}
+
 .features-item-title {
     font-weight: 500;
     font-size: 20px;

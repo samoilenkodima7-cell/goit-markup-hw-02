@@ -1,3 +1,14 @@
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 24px;
+}
+
+.conteiner-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -5,6 +16,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-bottom: 72px;
 }
 
 .portfolio-item-title {
