@@ -1,7 +1,8 @@
-.header-conteiner {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc
 }
 
 
@@ -31,6 +32,7 @@
     column-gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    column-gap: 40px;
 }
 
 .header-address {
@@ -40,11 +42,6 @@
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-}
-
-.header-address-list {
-    display: flex;
-    column-gap: 40px;
 }
 
 .header-nav-link:hover,

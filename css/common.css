@@ -10,6 +10,7 @@ ol {
     list-style: none;
     padding-left: 0;
     padding-right: 0;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -48,7 +49,7 @@ a {
     color: #4d5ae5;
 }
 
-.conteiner {
+.container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
