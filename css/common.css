@@ -28,6 +28,8 @@ p {
 a {
     text-decoration: none;
     color: inherit;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .section-title {
