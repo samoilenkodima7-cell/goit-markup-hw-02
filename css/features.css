@@ -5,7 +5,8 @@
 
 .features-list {
     display: flex;
-    width: ((100% - 72) / 4);
+    column-gap: 24px;
+    width: calc((100% - 72) / 4);
 }
 
 
