@@ -1,12 +1,12 @@
 .features {
     padding-top: 120px;
-    padding-bottom: 125px;
+    padding-bottom: 120px;
 }
 
 .features-list {
     display: flex;
     column-gap: 24px;
-    width: calc((100% - 72) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 
