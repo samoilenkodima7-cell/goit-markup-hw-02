@@ -5,8 +5,9 @@
 
 .features-list {
     display: flex;
-    column-gap: 24px;
+    width: ((100% - 72) / 4);
 }
+
 
 .features-item-title {
     font-weight: 500;
