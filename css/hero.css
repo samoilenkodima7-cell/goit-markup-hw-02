@@ -1,5 +1,6 @@
 .hero {
     background: #2e2f42;
+    padding-top: 188px;
 }
 
 .container-hero {
@@ -17,7 +18,6 @@
     text-align: center;
     max-width: 496px;
     color: #fff;
-    padding-top: 188px;
 }
 
 .hero-button {
