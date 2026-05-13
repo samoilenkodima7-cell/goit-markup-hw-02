@@ -3,10 +3,14 @@
     padding-bottom: 120px;
 }
 
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
+
 .features-list {
     display: flex;
     column-gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 
