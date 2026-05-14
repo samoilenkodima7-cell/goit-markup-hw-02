@@ -27,7 +27,7 @@
     border-right: 1px solid #e7e9fc;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
-    padding: 32px 8px;
+    padding: 32px 16px;
 }
 
 .portfolio-item {
@@ -48,4 +48,5 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 8px;
 }
