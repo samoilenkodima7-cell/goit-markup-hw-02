@@ -57,3 +57,18 @@
 .header-address-link:focus {
     color: #404bbf;
 }
+
+.nav-link-features::after {
+    content: "";
+    display: block;
+    border-radius: 2px;
+    width: 65px;
+    height: 4px;
+    background: #404bbf;
+    position: relative;
+    top: 21px;
+}
+
+.nav-link-features {
+    color: #404bbf;
+}

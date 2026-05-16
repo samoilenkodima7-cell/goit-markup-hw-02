@@ -2,6 +2,12 @@
     background: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: 
+        linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%),
+        url(../images/Фон\ hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .container-hero {
@@ -9,6 +15,7 @@
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
+
 }
 
 .hero-title {

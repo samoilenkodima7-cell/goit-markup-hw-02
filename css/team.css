@@ -29,6 +29,8 @@
 .team-item {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
+    width: 264px;
+    height: 428px;
 }
 
 
@@ -49,4 +51,25 @@
     text-align: center;
     color: #434455;
     margin-top: 8px;
+}
+
+.icon-social {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background: #4d5ae5 
+}
+
+.icon {
+    fill: #F4F4FD;
+}
+
+
+.social {
+    display: flex;
+    margin-top: 8px;
+}
+
+.social-item {
+    padding: 12px;
 }

@@ -31,5 +31,20 @@
     color: #434455;
 }
 
+.conteiner-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+}
 
-    
+.icon-features {
+    fill: #2E2F42;
+    /* stroke: #4D5AE5; */
+
+}
