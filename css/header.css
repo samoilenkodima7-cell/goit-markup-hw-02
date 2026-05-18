@@ -62,13 +62,14 @@
     content: "";
     display: block;
     border-radius: 2px;
-    width: 65px;
+    width: 100%;
     height: 4px;
     background: #404bbf;
-    position: relative;
-    top: 21px;
+    position: absolute;
+    bottom: 0;
 }
 
 .nav-link-features {
     color: #404bbf;
+    position: relative;
 }
