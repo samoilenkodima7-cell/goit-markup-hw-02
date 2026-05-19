@@ -8,6 +8,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .container-hero {
@@ -27,7 +29,6 @@
     text-align: center;
     max-width: 496px;
     color: #fff;
-    width: 1440px;
 }
 
 .hero-button {
