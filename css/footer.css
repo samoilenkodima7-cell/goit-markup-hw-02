@@ -95,6 +95,11 @@
     background-color: transparent;
     margin-right: 24px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
 }
 
 .subscribe-input-email::placeholder {
@@ -131,6 +136,7 @@
     gap: 16px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
 }
 
 .subscribe-input:hover,

@@ -415,41 +415,43 @@
                             </li>
                         </ul>
             </div>
-             <form class="conteiner-subscribe">
-                    <p class="footer-text-subscribe">Subscribe</p>
-                        <div class="subscribe-btn-icon">
-                            <input type="email" class="subscribe-input-email" name="email" placeholder="E-mail">
-                            <div class="subscribe-btn">
-                                <button type="submit" class="subscribe-input">
-                                    <svg width="24px" height="24px" class="icon-input-subscribe">
-                                        <use href="./images/icons.svg#icon-illustration"></use>
-                                    </svg>
-                                    Subscribe
-                                </button>
-                            </div>
+            <div>
+                <p class="footer-text-subscribe">Subscribe</p>
+                 <form class="conteiner-subscribe">
+                    <div class="subscribe-btn-icon">
+                        <input type="email" class="subscribe-input-email" name="email" placeholder="E-mail">
+                        <div class="subscribe-btn">
+                            <button type="submit" class="subscribe-input">
+                                <svg width="24px" height="24px" class="icon-input-subscribe">
+                                    <use href="./images/icons.svg#icon-illustration"></use>
+                                </svg>
+                                Subscribe
+                            </button>
                         </div>
-             </form>
+                    </div>
+                 </form>
+            </div>
         </div>
     </footer>
     <!-- #endregion footer -->
 
     <!-- #region modal -->
-    <div class="backdrop" id="modal">
+    <div class="backdrop is-open" id="modal">
         <div class="modal">
             <button class="close-modal" type="button">
-                <svg width="8px" height="8px">
+                <svg width="8px" height="8px" class="close-modal-svg">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
             <p class="text-modal">Leave your contacts and we will call you back</p>
 
-            <form>
+            <form class="form">
 
                 <div class="input-wrapper">
                     <label for="form-name" class="form-label">Name</label>
                     <div class="conteiner-input-icon">
                         <input type="text" id="form-name" class="input-text" name="name" >
-                            <svg width="24px" height="24px" class="form-icon-input">
+                            <svg width="18px" height="24px" class="form-icon-input">
                                 <use href="./images/icons.svg#icon-person"></use>
                             </svg>
                     </div>
@@ -459,7 +461,7 @@
                     <label for="form-phone" class="form-label">Phone</label>
                     <div class="conteiner-input-icon">
                         <input type="tel" id="form-phone" class="input-text" name="phone">
-                            <svg width="24px" height="24px" class="form-icon-input">
+                            <svg width="18px" height="24px" class="form-icon-input">
                                 <use href="./images/icons.svg#icon-phone"></use>
                             </svg>
                     </div>
@@ -469,7 +471,7 @@
                     <label for="form-email" class="form-label">Email</label>
                     <div class="conteiner-input-icon">
                         <input type="email" id="form-email" class="input-text" name="email">
-                            <svg width="24px" height="24px" class="form-icon-input">
+                            <svg width="18px" height="24px" class="form-icon-input">
                                 <use href="./images/icons.svg#icon-email"></use>
                             </svg>
                     </div>
