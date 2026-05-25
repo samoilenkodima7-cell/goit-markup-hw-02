@@ -36,7 +36,6 @@
     position: absolute;
     top: 24px;
     right: 24px;
-    color: black;
     border: none;
     background-color: #e7e9fc;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -46,12 +45,19 @@
     cursor: pointer;
     padding: 0;
     line-height: 0;
+    /* fill: #2E2F42; */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-modal svg {
     fill: #2E2F42;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-modal:hover,
-.close-modal:focus {
+.close-modal:focus,
+.close-modal svg:focus,
+.close-modal svg:hover{
     background-color: #404bbf;
     fill: #fff;
 }   
