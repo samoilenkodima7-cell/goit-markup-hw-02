@@ -6,6 +6,7 @@
 
 .container-footer {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer-link {
@@ -37,7 +38,7 @@
 }
 
 .conteiner-footer-text-social{
-    margin-right: 83px;
+    /* margin-right: 83px; */
 }
 
 .footer-text-social {
@@ -71,6 +72,11 @@
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #31D0AA;
+}
+
+.conteiner-footer-subscribe {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-text-subscribe {

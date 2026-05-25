@@ -36,14 +36,23 @@
     cursor: pointer;
     padding: 0;
     line-height: 0;
-    fill: #2E2F42;
+    /* fill: #2E2F42; */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-modal:hover,
 .close-modal:focus {
     background-color: #404bbf;
+    /* fill: #fff; */
+}
+
+.close-modal-svg {
+    fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-modal-svg:hover,
+.close-modal-svg:focus {
     fill: #fff;
 }
 
@@ -59,7 +68,7 @@
 }
 
 .input-wrapper {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .conteiner-input-icon {
@@ -83,12 +92,12 @@
     padding: 8px 38px;
     width: 100%;
     min-height: 40px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-text:hover,
 .input-text:focus {
-    border: 1px solid #4d5ae5;
+    border-color: 1px solid #4d5ae5;
     outline: none;
 }
 
@@ -102,7 +111,7 @@
     padding: 8px 16px;
     width: 100%;
     min-height: 120px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     resize: none;
     font-weight: 400;
     font-size: 12px;
@@ -121,7 +130,7 @@
 
 .input-textarea:hover,
 .input-textarea:focus {
-    border: 1px solid #4d5ae5;
+    border-color: 1px solid #4d5ae5;
     outline: none;
 }
 
@@ -183,7 +192,6 @@
     margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .submit-btn {
     cursor: pointer;
