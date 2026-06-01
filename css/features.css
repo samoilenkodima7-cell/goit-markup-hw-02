@@ -1,30 +1,36 @@
 .features {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* max-width: 320px; */
+}
+
+.container-features {
+    max-width: 320px;
 }
 
 .features-item {
-    width: calc((100% - 72px) / 4);
+    
 }
 
 
 .features-list {
     display: flex;
-    column-gap: 24px;
+    flex-direction: column;
+    row-gap: 72px;
+    padding: 96px 16px;
 }
 
 
-.features-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+.features-item-title {  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
 }
 
 .features-item-text {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -32,19 +38,64 @@
 }
 
 .conteiner-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    background: #f4f4fd;
-    margin-bottom: 8px;
+    display: none;
 }
 
-.icon-features {
-    fill: #2E2F42;
-    /* stroke: #4D5AE5; */
 
+@media screen and (min-width: 768px) {
+    .container-features    {
+        max-width: 768px;
+    }
+
+    .features-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+    }
+
+    .features-item {
+        width: calc((100% - 24px) / 2);
+    }   
+
+    .features-item-title {
+        text-align: start;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container-features {
+        max-width: 1158px;
+        padding: 120px 15px;
+    }
+
+    .features-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .conteiner-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        height: 112px;
+        background: #f4f4fd;
+        margin-bottom: 8px;
+    }
+
+    .icon-features {
+        fill: #2E2F42;
+    }
+
+    .features-item-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .features-item-text  {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
 }
