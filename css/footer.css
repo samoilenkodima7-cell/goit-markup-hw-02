@@ -1,7 +1,7 @@
 .footer {
     background: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .container-footer {
@@ -48,7 +48,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 16px;
 }
 
 .footer-text-social {
@@ -105,7 +104,7 @@
     border: 1px solid #fff;
     border-radius: 4px;
     padding: 8px 16px;
-    max-width: 264px;
+    max-width: 288px;
     height: 40px;
     background-color: transparent;
     margin-bottom: 16px;
@@ -171,9 +170,62 @@
 @media screen and (min-width: 768px) {
     .container-footer {
         max-width: 768px;
+        height: 264px;
         flex-direction: row;
         flex-wrap: wrap;
+        padding-left: 108px;
+        padding-right: 108px;
+        row-gap: 72px;
+        column-gap: 24px;
     }
 
+    .conteiner-footer-logo-text {
+        align-items: start;
+    }
+
+    .footer-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .conteiner-footer-text-social {
+        align-items: start;
+    }
+
+    .conteiner-footer-subscribe {
+        align-items: start;
+    }
+
+    .subscribe-input-email {
+        max-width: 264px;
+    }
+
+    .subscribe-btn-icon {
+        display: flex;
+    }
     
+}
+
+@media screen and (min-width: 1158px) {
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: row;
+        max-width: 1158px;
+        height: 112px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .conteiner-footer-logo-text {
+        max-width: 264px;
+    }
+
+    .subscribe-btn-icon {
+        display: flex;
+    }
 }
