@@ -197,7 +197,11 @@
     }
 
     .subscribe-input-email {
-        max-width: 264px;
+        width: 264px;
+    }
+
+    .subscribe-input {
+        margin-left: 24px;
     }
 
     .subscribe-btn-icon {
@@ -219,10 +223,14 @@
         height: 112px;
         padding-left: 15px;
         padding-right: 15px;
+        margin: 0;
     }
 
     .conteiner-footer-logo-text {
         max-width: 264px;
+        display: flex;
+        justify-content: start;
+        align-content: start;
     }
 
     .subscribe-btn-icon {

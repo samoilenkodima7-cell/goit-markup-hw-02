@@ -110,7 +110,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
-        /* row-gap: 64px; */
+        row-gap: 64px;
         align-items: center;
         justify-content: center;
         padding-left: 15px;
