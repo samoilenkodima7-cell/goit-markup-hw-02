@@ -119,6 +119,11 @@
         justify-content: center;
     }
 
+    .header-nav-link {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
     .header-address {
         display: flex;
 
