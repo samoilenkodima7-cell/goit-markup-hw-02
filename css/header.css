@@ -10,7 +10,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 56px;
     padding-left: 16px;
     padding-right: 16px;
     max-width: 320px;
@@ -25,8 +24,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#2e2f42;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 21px;
+    padding-bottom: 21px;
 }
 
 .header-nav {
@@ -104,8 +103,7 @@
 
 
 @media screen and (min-width: 768px) {
-    .header-container {
-        height: 72px;
+    .header-container { 
         max-width: 768px;
     }
 
@@ -116,7 +114,8 @@
 
     .header-nav {
         display: flex;
-        padding-right: 120px;
+        padding-left: 120px;
+        padding-right: 129px;
         justify-content: center;
     }
 

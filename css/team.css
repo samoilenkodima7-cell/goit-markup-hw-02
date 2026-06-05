@@ -1,8 +1,6 @@
 .team {
     padding-top: 96px;
     padding-bottom: 96px;
-     /* padding-left: 141px;
-    padding-right: 141px;  */
     background-color: #f4f4fd; 
 } 
 
@@ -131,7 +129,5 @@
 
     .team-list {
         flex-wrap: nowrap;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 }

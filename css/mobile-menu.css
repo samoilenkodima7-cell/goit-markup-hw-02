@@ -1,3 +1,9 @@
+.burger-menu-section {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+}
+
 .mobile-menu {
     position: fixed;
     z-index: 99999999999;
@@ -102,7 +108,7 @@
 
 .burger-menu-social-link {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 

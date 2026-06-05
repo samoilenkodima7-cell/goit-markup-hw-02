@@ -104,13 +104,12 @@
     border: 1px solid #fff;
     border-radius: 4px;
     padding: 8px 16px;
-    max-width: 288px;
+    max-width: 320px;
     height: 40px;
     background-color: transparent;
     margin-bottom: 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #fff;
-    width: 288px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
@@ -151,7 +150,6 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    gap: 16px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
