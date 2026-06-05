@@ -8,7 +8,7 @@
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding-left: 16px;
     padding-right: 16px;
@@ -24,8 +24,9 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#2e2f42;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 149px;
 }
 
 .header-nav {
@@ -99,6 +100,10 @@
 .nav-link-features {
     color: #404bbf;
     position: relative;
+}
+
+.burger-menu-icon {
+    border: none;
 }
 
 
