@@ -26,6 +26,13 @@
     pointer-events: auto;
 }
 
+.container-mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .burger-menu-close-btn {
     position: absolute;
     top: 24px;

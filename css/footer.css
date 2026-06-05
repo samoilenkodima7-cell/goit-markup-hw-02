@@ -32,8 +32,6 @@
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 288px;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 .conteiner-footer-logo-text{
@@ -90,6 +88,14 @@
     align-items: center;
 }
 
+.conteiner-subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px 24px;
+}
+
 .footer-text-subscribe {
     font-weight: 500;
     font-size: 16px;
@@ -104,7 +110,7 @@
     border: 1px solid #fff;
     border-radius: 4px;
     padding: 8px 16px;
-    max-width: 100%;
+    width: 288px;
     height: 40px;
     background-color: transparent;
     margin-bottom: 16px;
@@ -175,6 +181,7 @@
         padding-right: 108px;
         row-gap: 72px;
         column-gap: 24px;
+        justify-content: flex-start;
     }
 
     .conteiner-footer-logo-text {
