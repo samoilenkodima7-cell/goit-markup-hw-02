@@ -223,6 +223,7 @@
 
     .container-footer {
         display: flex;
+        justify-content: space-between;
         flex-direction: row;
         max-width: 1158px;
         height: 112px;
@@ -236,7 +237,7 @@
         display: flex;
         justify-content: start;
         align-content: start;
-        padding-right: 120px;
+        /* padding-right: 120px; */
     }
 
     .subscribe-btn-icon {
